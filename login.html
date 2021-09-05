@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>KMR Hospital</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/bootstrap.min.css'>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    <script src="src/bootstrap.min.js"></script>
+    <script src="src/bootstrap.bundle.min.js"></script>
+    <script src="src/bootstrap.bundle.js"></script>
+    <script src="src/bootstrap.js"></script>
+
+    <style>
+        .navbar-nav{
+        margin-left: 30%;
+      }      
+      a:visited {
+        color: blue;
+      }
+      a:hover{
+            color: green;
+      }
+      .sign{
+            border: 1px solid black;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 5%;
+            
+            background-color: blanchedalmond;
+            border-radius: 5px;
+        }
+        .acc{
+            border: 1px solid black;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 3%;
+                                   
+            background-color: blanchedalmond;
+            
+            
+        }
+        a:hover{
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/uni.ico" width="40" height="40" alt="ICON IMG" >
+                   
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="updated.html">Updated NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="success.html">Our success</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="appointment.html">Appointment</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Other link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="login.html">sign_in</a>
+                <a class="dropdown-item" href="signup.html">Sign_up</a>
+                <a class="dropdown-item" href="contact.html">Contact us</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <form class="sign">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="position-relative bg-primary text-center margin-10%">
+        <button type="submit" class="btn btn-primary">Sign_in</button>
+        </div>
+      </form>
+      <form class="acc">
+          <h4>don'n have an KMR account ?</h4>
+          <a href="signup.html">create one</a>
+      </form>
+</body>
+</html>
